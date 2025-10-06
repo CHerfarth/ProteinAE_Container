@@ -1,4 +1,4 @@
-# ProteinAE: Diffusion Protein AutoEncoder for Structure Encoding and Generation
+# ProteinAE: Diffusion Protein AutoEncoder for Structure Encoding
 
 
 <div align="center">
@@ -21,9 +21,10 @@ pip install -e .
 
 ```bash
 python proteinfoundation/autoencode.py \
-    --input_pdb example/T1133-D1.pdb \
+    --input_pdb $input_pdb \
     --output_dir output \
-    --config /path/to/configs
+    --config_path /path/to/configs \
+    --mode autoencode
 ```
 
 ### Training
