@@ -10,7 +10,6 @@
 
 ## Setup
 ```
- 
 mamba activate proteinae
 pip install -e .
 ```
@@ -42,4 +41,25 @@ python proteinfoundation/train_ae.py \
 ```bash
 python proteinfoundation/train_ldm.py \
     --config_name training_pldm_200M_afdb_512
+```
+
+### TODO List:
+- [ ] Add ProteinAE checkpoint
+- [ ] Add ProteinLDM checkpoint
+
+## Acknowledgments
+
+This work is based on the [Proteina](https://github.com/NVIDIA-Digital-Bio/proteina) repository.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{geffner2025proteina,
+  title={Proteina: Scaling flow-based protein structure generative models},
+  author={Geffner, Tomas and Didi, Kieran and Zhang, Zuobai and Reidenbach, Danny and Cao, Zhonglin and Yim, Jason and Geiger, Mario and Dallago, Christian and Kucukbenli, Emine and Vahdat, Arash and others},
+  journal={arXiv preprint arXiv:2503.00710},
+  year={2025}
+}
 ```
