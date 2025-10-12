@@ -10,6 +10,7 @@
 
 ## Setup
 ```
+mamba create -n proteinae python=3.12
 mamba activate proteinae
 pip install -e .
 ```
