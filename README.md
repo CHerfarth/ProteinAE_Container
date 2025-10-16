@@ -1,5 +1,10 @@
 # ProteinAE: Diffusion Protein AutoEncoder for Structure Encoding
 
+<div align="center">
+<a href="https://arxiv.org/pdf/2510.10634">
+  <img src="https://img.shields.io/badge/arXiv-2510.10634-b31b1b.svg" alt="Paper">
+</a>
+</div>
 
 <div align="center">
     <img width="600" alt="teaser" src="assets/overview.png"/>
@@ -65,6 +70,13 @@ This work is based on the [Proteina](https://github.com/NVIDIA-Digital-Bio/prote
 If you find this work useful, please cite:
 
 ```bibtex
+@article{li2025proteinae,
+  title={ProteinAE: Protein Diffusion Autoencoders for Structure Encoding},
+  author={Li, Shaoning and Zhuo, Le and Wang, Yusong and Li, Mingyu and He, Xinheng and Wu, Fandi and Li, Hongsheng and Heng, Pheng-Ann},
+  journal={arXiv preprint arXiv:2510.10634},
+  year={2025}
+}
+
 @article{geffner2025proteina,
   title={Proteina: Scaling flow-based protein structure generative models},
   author={Geffner, Tomas and Didi, Kieran and Zhang, Zuobai and Reidenbach, Danny and Cao, Zhonglin and Yim, Jason and Geiger, Mario and Dallago, Christian and Kucukbenli, Emine and Vahdat, Arash and others},
