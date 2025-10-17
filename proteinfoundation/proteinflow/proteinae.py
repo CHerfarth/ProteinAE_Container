@@ -622,8 +622,6 @@ class ProteinAE(ModelTrainerBase):
             schedule_mode=self.inf_cfg.schedule.schedule_mode,
             schedule_p=self.inf_cfg.schedule.schedule_p,
             sampling_mode=sampling_args["sampling_mode"],
-            sc_scale_noise=sampling_args["sc_scale_noise"],
-            sc_scale_score=sampling_args["sc_scale_score"],
             gt_mode=sampling_args["gt_mode"],
             gt_p=sampling_args["gt_p"],
             gt_clamp_val=sampling_args["gt_clamp_val"],

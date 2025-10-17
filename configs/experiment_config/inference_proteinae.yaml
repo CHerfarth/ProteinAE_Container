@@ -2,8 +2,8 @@ defaults:
   - _self_
 
 run_name_: inference_proteinae
-
-ckpt_name: ae_r1_d8.ckpt
+ckpt_path: checkpoints
+ckpt_name: ae_r1_d8_v1.ckpt
 
 self_cond: True
 dt: 0.05
@@ -13,6 +13,10 @@ sampling_bbflow:
   gt_mode: "1/t"  # us, tan, or 1/t
   gt_p: 1.0  # float
   gt_clamp_val: null  # 10.0 float or null
+
+schedule:
+  schedule_mode: uniform
+  schedule_p: null
 
 ca_only: True
 ae_mode: autoencode
