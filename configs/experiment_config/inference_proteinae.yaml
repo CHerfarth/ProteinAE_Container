@@ -2,7 +2,7 @@ defaults:
   - _self_
 
 run_name_: inference_proteinae
-ckpt_path: checkpoints
+ckpt_path: /proteinae/checkpoints
 ckpt_name: ae_r1_d8_v1.ckpt
 
 self_cond: True

@@ -11,4 +11,4 @@ module load singularity
 
 export XDG_RUNTIME_DIR=/ibex/user/herfarcf/temp
 
-singularity build --fakeroot --force ./AlphaFold.sif ./Singularity.def
+singularity build --fakeroot --force ./ProteinAE.sif ./Singularity.def
