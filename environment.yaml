@@ -17,6 +17,7 @@ dependencies:
   - pyg::pytorch-cluster=1.6.3
   - conda-forge::timm=1.0.19
   - bioconda::mmseqs2=17.b804f
+  - conda-forge:transformers=4.57.1
   - pip:
     - python-dotenv==1.0.1
     - einops==0.6
